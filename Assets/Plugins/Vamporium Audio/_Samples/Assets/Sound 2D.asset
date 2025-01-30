@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c36242221444f9f4698fcca0ccb8bcc1, type: 3}
+  m_Name: Sound 2D
+  m_EditorClassIdentifier: 
+  Material:
+    Clips:
+    - {fileID: 8300000, guid: 6cbe78ece6c76eb46bbf3b3dcaf43812, type: 3}
+    - {fileID: 8300000, guid: 1bdccedc3220b584e85dce39f5991ded, type: 3}
+    - {fileID: 8300000, guid: bba63ac5e2ef3dd468688e382f605d25, type: 3}
+    - {fileID: 8300000, guid: c490334a260a15a47b8af4416fb77a37, type: 3}
+    - {fileID: 8300000, guid: 71bd5c95aa44cd94b8c90bcab1e3fb14, type: 3}
+    Settings:
+      Channel: {fileID: -4594169811397487909, guid: c4dfaecf960d9ad40b5e5e14c3e129f6, type: 2}
+      Volume: {x: 1, y: 1}
+      Pitch: {x: 1, y: 1}
+      SpatialBlend: 0
+      Loop: 0

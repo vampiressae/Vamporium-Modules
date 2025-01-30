@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e5972f3c516ea94e8312482cd3e0ca5, type: 3}
+  m_Name: _Collection
+  m_EditorClassIdentifier: 
+  _settings:
+    Channel: {fileID: -4594169811397487909, guid: c4dfaecf960d9ad40b5e5e14c3e129f6, type: 2}
+    Volume: {x: 0.9, y: 1}
+    Pitch: {x: 0.8, y: 1}
+    SpatialBlend: 1
+    Loop: 0
+  _modules:
+  - Key: 
+    Material:
+      Mode: 0
+      Clips: []
+      Settings:
+        Channel: {fileID: -4594169811397487909, guid: c4dfaecf960d9ad40b5e5e14c3e129f6, type: 2}
+        Volume: {x: 0.9, y: 1}
+        Pitch: {x: 0.8, y: 1.359551}
+        SpatialBlend: 1
+        Loop: 0
+    Settings: 1
+  - Key: 
+    Material:
+      Mode: 0
+      Clips: []
+      Settings:
+        Channel: {fileID: -4594169811397487909, guid: c4dfaecf960d9ad40b5e5e14c3e129f6, type: 2}
+        Volume: {x: 0.9, y: 1}
+        Pitch: {x: 0.8, y: 1.359551}
+        SpatialBlend: 1
+        Loop: 0
+    Settings: 0

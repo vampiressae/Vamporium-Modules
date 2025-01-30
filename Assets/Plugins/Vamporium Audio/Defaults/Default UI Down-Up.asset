@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61c0908e52da82d419018acbedacea16, type: 3}
+  m_Name: Default UI Down-Up
+  m_EditorClassIdentifier: 
+  Settings:
+    Channel: {fileID: 4278579654459847571, guid: c4dfaecf960d9ad40b5e5e14c3e129f6, type: 2}
+    Volume: {x: 1, y: 1}
+    Pitch: {x: 1, y: 1}
+    SpatialBlend: 0
+    Loop: 0
+  Loop: 0
+  _modules:
+  - Key: Down
+    Clips:
+    - {fileID: 8300000, guid: 14052d958fb0da34ca6320fc915e925f, type: 3}
+  - Key: Up
+    Clips:
+    - {fileID: 8300000, guid: 4a863c77576cc2b49901715fab1a15b0, type: 3}

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c36242221444f9f4698fcca0ccb8bcc1, type: 3}
+  m_Name: Consume
+  m_EditorClassIdentifier: 
+  Material:
+    Mode: 1
+    Clips:
+    - {fileID: 8300000, guid: 66b3495b6292cbd4fa479c3706d49a95, type: 3}
+    - {fileID: 8300000, guid: e4f577f18911af1468af37d67cdbdd6b, type: 3}
+    - {fileID: 8300000, guid: 0b1c61dbd0a94cb4d8b7dd55b38474cf, type: 3}
+    - {fileID: 8300000, guid: 4f1a8f78538ff5c438526ef3824a6888, type: 3}
+    - {fileID: 8300000, guid: a0a53f2f5c2701044b990d38b66e691b, type: 3}
+    - {fileID: 8300000, guid: 7f2cf940f4e9f5a418e060e5bf1226f0, type: 3}
+    Settings:
+      Channel: {fileID: -4594169811397487909, guid: c4dfaecf960d9ad40b5e5e14c3e129f6, type: 2}
+      Volume: {x: 0.9, y: 1}
+      Pitch: {x: 0.8, y: 1}
+      SpatialBlend: 1
+      Loop: 0
