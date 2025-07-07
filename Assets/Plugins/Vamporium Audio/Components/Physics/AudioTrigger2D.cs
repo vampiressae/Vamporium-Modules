@@ -7,13 +7,13 @@ namespace VamporiumAudio
         private void OnTriggerEnter2D(Collider2D collider)
         {
             var rb = collider.attachedRigidbody;
-            Play(collider.transform.position, rb ? rb.velocity.magnitude : -1, 0);
+            Play(collider.transform.position, rb ? rb.linearVelocity.magnitude : -1, 0);
         }
 
         private void OnTriggerExit2D(Collider2D collider)
         {
             var rb = collider.attachedRigidbody;
-            Play(collider.transform.position, rb ? rb.velocity.magnitude : -1, 0);
+            Play(collider.transform.position, rb ? rb.linearVelocity.magnitude : -1, 0);
         }
     }
 }
