@@ -1,16 +1,36 @@
 using System;
 using UnityEngine;
+using Sirenix.OdinInspector;
 
-[CreateAssetMenu(menuName = "Progression Info")]
-public class ShapeProgressionInfo : ScriptableObject
+namespace ShapedNumbers
 {
-    [Serializable]
-    public class Module
+    [CreateAssetMenu(menuName = "Progression Info")]
+    public class ShapeProgressionInfo : ScriptableObject
     {
-        public int Max;
-        public Color Color;
+        [Serializable]
+        public class Module
+        {
+            [HideLabel, HorizontalGroup(40)] public int Max;
+            [HideLabel, HorizontalGroup] public Color Color;
+        }
+
+        public Module[] Modules;
+
+        public bool GetModuleAndTier(int value, out Module module, out int tier)
+        {
+            module = null;
+            tier = -1;
+
+            if (value >= 0)
+                for (int i = 0; i < Modules.Length; i++)
+                {
+                    if (value > Modules[i].Max) continue;
+                    module = Modules[i];
+                    tier = value - (i == 0 ? 0 : Modules[i - 1].Max);
+                    return true;
+                }
+
+            return false;
+        }
     }
-
-    public Module[] Modules;
-
 }

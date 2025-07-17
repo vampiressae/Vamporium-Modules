@@ -1,8 +1,12 @@
-using Sirenix.OdinInspector;
 using UnityEngine;
+using Sirenix.OdinInspector;
 
-[CreateAssetMenu(menuName = "Shape Info")]
-public class ShapeInfo : ScriptableObject
+namespace ShapedNumbers
 {
-    [SerializeField, InlineProperty, HideLabel] private Shape _shape;
+    [CreateAssetMenu(menuName = "Shape Info")]
+    public class ShapeInfo : ScriptableObject
+    {
+        [SerializeField, HideLabel, InlineProperty] private Shape _shape;
+    }
 }
+ 

@@ -12,3 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef272fb978a443b4ea3797be22768b7d, type: 3}
   m_Name: New Shape Info
   m_EditorClassIdentifier: 
+  _shape:
+    _size:
+      X: 3
+      Y: 3
+    _keys:
+    - X: 1
+      Y: 1
+    - X: 1
+      Y: 2
+    - X: 2
+      Y: 1
+    - X: 0
+      Y: 1
+    - X: 1
+      Y: 0
+    _values: 0300000001000000010000000100000001000000
